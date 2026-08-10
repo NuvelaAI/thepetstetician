@@ -38,7 +38,9 @@ vercel --prod   # production deploy
    your form ID over `YOUR_FORM_ID` in `index.html`. Until then it politely points people to
    book online / call / email.
 2. **Instagram link.** Confirm `https://instagram.com/the_pet_stetician` is correct.
-3. **Domain.** Add `thepetstetician.com` in Vercel → Project → Settings → Domains.
+3. **Domain.** Add `thepet-stetician.com` (and `www.thepet-stetician.com`) in
+   Vercel → Project → Settings → Domains, then set the DNS records Vercel shows you
+   at your domain registrar.
 
 ### Already wired
 - **Booking:** all "Book" buttons open the MoeGo page
