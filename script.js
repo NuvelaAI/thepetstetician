@@ -16,40 +16,33 @@ links.querySelectorAll('a').forEach(a =>
 // Current year in footer
 document.getElementById('year').textContent = new Date().getFullYear();
 
-// Contact form — AJAX submit to Formspree (falls back gracefully)
+// Contact form — builds a pre-filled email to the business and opens the
+// visitor's email app. No backend/third party required.
+//
+// WANT REAL FORM-TO-INBOX DELIVERY LATER? Sign up at https://formspree.io,
+// create a form, then: (1) set the form's action to your Formspree URL,
+// and (2) replace this handler with a fetch() POST of new FormData(form).
+const BUSINESS_EMAIL = 'jfedorka1@gmail.com';
 const form = document.getElementById('contactForm');
 const note = document.getElementById('formNote');
-form.addEventListener('submit', async (e) => {
-  // If the Formspree endpoint hasn't been set yet, let the mailto fallback happen
-  if (form.action.includes('YOUR_FORM_ID')) {
-    e.preventDefault();
-    note.className = 'form-note error';
-    note.textContent = 'Message form not connected yet — please book online, call 973.896.4547, or email jfedorka1@gmail.com.';
-    return;
-  }
+
+form.addEventListener('submit', (e) => {
   e.preventDefault();
-  const btn = form.querySelector('button[type="submit"]');
-  const original = btn.textContent;
-  btn.textContent = 'Sending…';
-  btn.disabled = true;
-  try {
-    const res = await fetch(form.action, {
-      method: 'POST',
-      body: new FormData(form),
-      headers: { Accept: 'application/json' },
-    });
-    if (res.ok) {
-      form.reset();
-      note.className = 'form-note success';
-      note.textContent = "Thank you! We'll be in touch within 24 hours. 🐾";
-    } else {
-      throw new Error('bad response');
-    }
-  } catch (err) {
-    note.className = 'form-note error';
-    note.textContent = 'Something went wrong — please call 973.896.4547 or email jfedorka1@gmail.com instead.';
-  } finally {
-    btn.textContent = original;
-    btn.disabled = false;
-  }
+  const val = (id) => (document.getElementById(id)?.value || '').trim();
+  const name = val('name');
+  const subject = `Grooming inquiry from ${name || 'a pet parent'}`;
+  const body =
+    `Name: ${name}\n` +
+    `Phone: ${val('phone')}\n` +
+    `Email: ${val('email')}\n` +
+    `Pet (name & breed): ${val('pet')}\n` +
+    `Service interested in: ${val('service')}\n\n` +
+    `Message:\n${val('message')}\n`;
+
+  window.location.href =
+    `mailto:${BUSINESS_EMAIL}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+
+  note.className = 'form-note success';
+  note.textContent =
+    `Opening your email app… if nothing happens, email ${BUSINESS_EMAIL} or call 973.896.4547.`;
 });
