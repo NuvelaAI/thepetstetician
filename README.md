@@ -1,7 +1,7 @@
 # The Pet-Stetician — Website
 
 Static marketing site for **The Pet-Stetician**, a mobile pet grooming business serving
-Palm Beach & St. Lucie County, FL. No build step — plain HTML, CSS, and JS. Deploys to Vercel as-is.
+Palm Beach, Martin & St. Lucie Counties, FL. No build step — plain HTML, CSS, and JS. Deploys to Vercel as-is.
 
 ## Files
 ```
