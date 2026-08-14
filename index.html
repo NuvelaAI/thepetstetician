@@ -61,6 +61,23 @@
     }
   }
   </script>
+
+  <!-- Structured data: FAQ -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      { "@type": "Question", "name": "Do you offer mobile dog grooming in Palm Beach?", "acceptedAnswer": { "@type": "Answer", "text": "Yes! The Pet-Stetician is a fully mobile grooming service. We bring a self-contained grooming van right to your home across Palm Beach, Martin, and St. Lucie Counties, so you never have to drive anywhere." } },
+      { "@type": "Question", "name": "What areas do you serve?", "acceptedAnswer": { "@type": "Answer", "text": "We serve Palm Beach, Martin, and St. Lucie Counties, including West Palm Beach, Jupiter, Wellington, Palm Beach Gardens, Stuart, Port St. Lucie, and everywhere in between." } },
+      { "@type": "Question", "name": "How does mobile grooming work?", "acceptedAnswer": { "@type": "Answer", "text": "We come to you. Julia arrives in a fully equipped grooming van and grooms your pet one-on-one right outside your home, with no cages, no long waits, and no stressful car rides." } },
+      { "@type": "Question", "name": "What dogs do you groom?", "acceptedAnswer": { "@type": "Answer", "text": "All breeds and sizes, from tiny puppies to big dogs. Every groom is tailored to your dog's coat type, temperament, and your preferences." } },
+      { "@type": "Question", "name": "How do I book an appointment?", "acceptedAnswer": { "@type": "Answer", "text": "The easiest way is to book online through our booking page. You can also call or text 973.896.4547, or send a message through our contact form." } },
+      { "@type": "Question", "name": "How much does mobile grooming cost?", "acceptedAnswer": { "@type": "Answer", "text": "Pricing depends on your dog's size, coat type, and the services you choose. Reach out for a quick, personalized quote." } },
+      { "@type": "Question", "name": "How often should my dog be groomed?", "acceptedAnswer": { "@type": "Answer", "text": "Most dogs do well with grooming every 4 to 8 weeks, depending on breed and coat. We're happy to recommend a schedule that keeps your pet looking and feeling their best." } }
+    ]
+  }
+  </script>
 </head>
 <body>
 
@@ -80,7 +97,8 @@
         <li><a href="#gallery">Gallery</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#testimonials">Reviews</a></li>
-        <li><a href="#area">Service Area</a></li>
+        <li><a href="#area">Areas</a></li>
+        <li><a href="#faq">FAQ</a></li>
         <li><a href="https://booking.moego.pet/ol/landing?name=ThePetStetician" target="_blank" rel="noopener" class="btn btn-pink btn-sm">Book Now</a></li>
       </ul>
     </nav>
@@ -298,16 +316,98 @@
 
   <!-- ===== Service Area ===== -->
   <section class="area section alt" id="area">
-    <div class="container area-inner">
-      <div class="area-ico">📍</div>
-      <h2>Servicing Palm Beach, Martin &amp; St. Lucie Counties</h2>
-      <p>Fully mobile grooming that comes to you across Palm Beach, Martin, and St. Lucie Counties, Florida. Not sure if you're in our range? Just ask — we're happy to help.</p>
-      <a href="tel:+19738964547" class="btn btn-green">📞 Call to Check Availability</a>
+    <div class="container">
+      <div class="area-inner">
+        <div class="area-ico">📍</div>
+        <h2>Areas We Serve</h2>
+        <p>Fully mobile grooming that comes to you across Palm Beach, Martin, and St. Lucie Counties, Florida — including these cities and everywhere in between. Not sure if you're in our range? Just ask!</p>
+      </div>
+      <div class="areas-grid">
+        <div class="area-col">
+          <h3>Palm Beach County</h3>
+          <ul>
+            <li>West Palm Beach</li>
+            <li>Palm Beach Gardens</li>
+            <li>Jupiter</li>
+            <li>Wellington</li>
+            <li>Boynton Beach</li>
+            <li>Lake Worth</li>
+            <li>Royal Palm Beach</li>
+            <li>North Palm Beach</li>
+            <li>Juno Beach &amp; Tequesta</li>
+          </ul>
+        </div>
+        <div class="area-col">
+          <h3>Martin County</h3>
+          <ul>
+            <li>Stuart</li>
+            <li>Palm City</li>
+            <li>Jensen Beach</li>
+            <li>Hobe Sound</li>
+            <li>Jupiter Island</li>
+            <li>Rio</li>
+            <li>Indiantown</li>
+          </ul>
+        </div>
+        <div class="area-col">
+          <h3>St. Lucie County</h3>
+          <ul>
+            <li>Port St. Lucie</li>
+            <li>Fort Pierce</li>
+            <li>Tradition</li>
+            <li>Hutchinson Island</li>
+          </ul>
+        </div>
+      </div>
+      <div class="area-cta">
+        <a href="tel:+19738964547" class="btn btn-green">📞 Call to Check Availability</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FAQ ===== -->
+  <section class="faq section" id="faq">
+    <div class="container">
+      <div class="section-head">
+        <p class="kicker">Good to Know</p>
+        <h2>Frequently Asked Questions</h2>
+        <p class="section-sub">Everything you need to know about mobile grooming with The Pet-Stetician.</p>
+      </div>
+      <div class="faq-list">
+        <details>
+          <summary>Do you offer mobile dog grooming in Palm Beach?</summary>
+          <p>Yes! The Pet-Stetician is a fully mobile grooming service. We bring a self-contained grooming van right to your home across Palm Beach, Martin, and St. Lucie Counties — so you never have to drive anywhere.</p>
+        </details>
+        <details>
+          <summary>What areas do you serve?</summary>
+          <p>We serve Palm Beach, Martin, and St. Lucie Counties, including West Palm Beach, Jupiter, Wellington, Palm Beach Gardens, Stuart, Port St. Lucie, and everywhere in between. Not sure if you're in range? Just call and ask — we're happy to help.</p>
+        </details>
+        <details>
+          <summary>How does mobile grooming work?</summary>
+          <p>We come to you. Julia arrives in a fully equipped grooming van and grooms your pet one-on-one right outside your home — no cages, no long waits, and no stressful car rides. Your pup comes back to you clean, happy, and looking their best.</p>
+        </details>
+        <details>
+          <summary>What dogs do you groom?</summary>
+          <p>All breeds and sizes, from tiny puppies to big dogs. Every groom is tailored to your dog's coat type, temperament, and your preferences.</p>
+        </details>
+        <details>
+          <summary>How do I book an appointment?</summary>
+          <p>The easiest way is to <a href="https://booking.moego.pet/ol/landing?name=ThePetStetician" target="_blank" rel="noopener">Book Online</a>. You can also call or text 973.896.4547, or send a message through our contact form below.</p>
+        </details>
+        <details>
+          <summary>How much does mobile grooming cost?</summary>
+          <p>Pricing depends on your dog's size, coat type, and the services you choose. Reach out for a quick, personalized quote — we'll help you find the right package for your pup.</p>
+        </details>
+        <details>
+          <summary>How often should my dog be groomed?</summary>
+          <p>Most dogs do well with grooming every 4–8 weeks, depending on breed and coat. We're happy to recommend a schedule that keeps your pet looking and feeling their best.</p>
+        </details>
+      </div>
     </div>
   </section>
 
   <!-- ===== Contact ===== -->
-  <section class="contact section" id="contact">
+  <section class="contact section alt" id="contact">
     <div class="container contact-grid">
       <div class="contact-copy">
         <p class="kicker">Get in Touch</p>
