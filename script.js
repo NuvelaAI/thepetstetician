@@ -35,8 +35,10 @@ form.addEventListener('submit', async (e) => {
     });
     if (res.ok) {
       form.reset();
-      note.className = 'form-note success';
-      note.textContent = "Thank you! We'll be in touch within 24 hours. 🐾";
+      form.hidden = true;
+      const success = document.getElementById('formSuccess');
+      success.hidden = false;
+      success.scrollIntoView({ behavior: 'smooth', block: 'center' });
     } else {
       const data = await res.json().catch(() => ({}));
       const msg = data.errors ? data.errors.map((x) => x.message).join(', ') : 'bad response';
