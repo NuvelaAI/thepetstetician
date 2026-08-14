@@ -326,9 +326,11 @@
         </div>
       </div>
 
-      <form class="contact-form" id="contactForm" action="mailto:jfedorka1@gmail.com" method="post" enctype="text/plain">
+      <form class="contact-form" id="contactForm" action="https://formspree.io/f/xjyboyqa" method="POST">
         <h3>Have a Question? Send a Message</h3>
-        <p class="form-intro">Prefer to book online? Use the <strong>Book Online</strong> button. For anything else, fill this out and it'll open your email ready to send:</p>
+        <p class="form-intro">Prefer to book online? Use the <strong>Book Online</strong> button. For anything else, send us a note and we'll reply soon:</p>
+        <input type="hidden" name="_subject" value="New message from thepet-stetician.com" />
+        <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off" aria-hidden="true" />
         <div class="field">
           <label for="name">Your Name</label>
           <input type="text" id="name" name="name" required placeholder="Jane Doe" />
