@@ -1,9 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://www.thepet-stetician.com/</loc>
-    <lastmod>2026-08-10</lastmod>
+    <lastmod>2026-11-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
+    <image:image><image:loc>https://www.thepet-stetician.com/img/van-side.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.thepet-stetician.com/img/julia-portrait.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.thepet-stetician.com/img/julia-beach.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.thepet-stetician.com/img/groom-flamingo-doodle.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.thepet-stetician.com/img/groom-golden.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.thepet-stetician.com/img/groom-merle-doodle.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.thepet-stetician.com/img/groom-bichon-daisy.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.thepet-stetician.com/img/groom-choc-lab.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.thepet-stetician.com/img/groom-shihtzu.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.thepet-stetician.com/img/groom-chihuahua.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.thepet-stetician.com/img/groom-beach-pup.jpg</image:loc></image:image>
   </url>
 </urlset>
