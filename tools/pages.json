@@ -1,0 +1,415 @@
+{
+  "counties": [
+    {
+      "key": "palm-beach",
+      "slug": "palm-beach-county",
+      "name": "Palm Beach County",
+      "img": "groom-flamingo-doodle.jpg",
+      "imgAlt": "Freshly groomed black and white doodle in a pink flamingo bandana",
+      "intro": [
+        "The Pet-Stetician brings stress-free mobile dog grooming to homes across Palm Beach County, from Tequesta and Jupiter in the north to Boynton Beach in the south and Wellington in the west. Julia grooms every dog one-on-one in a fully equipped grooming van parked right outside your home."
+      ],
+      "sections": [
+        {
+          "h2": "Why mobile grooming makes sense in Palm Beach County",
+          "p": [
+            "Palm Beach County is big, and traffic on I-95 and the main roads can turn a salon drop-off into a half-day errand. Mobile grooming skips all of that. There&rsquo;s no drive, no drop-off window, no cage, and no long wait for pickup. Your dog is groomed close to home and is back inside as soon as they&rsquo;re done.",
+            "It&rsquo;s calmer for your dog, too. With no other dogs around and one groomer focused entirely on them, nervous dogs, seniors, and puppies tend to feel much more relaxed."
+          ]
+        }
+      ],
+      "cities": [
+        { "name": "West Palm Beach", "slug": "west-palm-beach-fl" },
+        { "name": "Palm Beach Gardens", "slug": "palm-beach-gardens-fl" },
+        { "name": "Jupiter", "slug": "jupiter-fl" },
+        { "name": "Wellington", "slug": "wellington-fl" },
+        { "name": "Boynton Beach", "slug": "boynton-beach-fl" },
+        { "name": "Lake Worth", "slug": "lake-worth-fl" },
+        { "name": "Royal Palm Beach", "slug": "royal-palm-beach-fl" },
+        { "name": "North Palm Beach", "slug": "north-palm-beach-fl" },
+        { "name": "Juno Beach", "slug": "juno-beach-fl" },
+        { "name": "Tequesta", "slug": "tequesta-fl" }
+      ],
+      "faq": [
+        { "q": "Do you offer mobile dog grooming everywhere in Palm Beach County?", "a": "We groom across Palm Beach County, including West Palm Beach, Palm Beach Gardens, Jupiter, Wellington, Boynton Beach, Lake Worth, Royal Palm Beach, North Palm Beach, Juno Beach, Tequesta, and everywhere in between. Not sure if you&rsquo;re in range? Call or text 973.896.4547 and just ask." }
+      ]
+    },
+    {
+      "key": "martin",
+      "slug": "martin-county",
+      "name": "Martin County",
+      "img": "groom-golden.jpg",
+      "imgAlt": "Freshly groomed golden retriever in a blue gingham bandana",
+      "intro": [
+        "The Pet-Stetician brings stress-free mobile dog grooming to homes across Martin County, including Stuart, Palm City, Jensen Beach, Hobe Sound, Jupiter Island, Rio, and Indiantown. Julia grooms every dog one-on-one in a fully equipped grooming van, right outside your home."
+      ],
+      "sections": [
+        {
+          "h2": "Mobile grooming for Martin County dogs",
+          "p": [
+            "Martin County dogs live close to the water, from the St. Lucie River and the Indian River Lagoon to the beaches on Hutchinson Island and Jupiter Island. Salt, sand, sun, and humidity are tough on coats, which is why regular baths, brush-outs, and trims matter so much here.",
+            "With mobile grooming there&rsquo;s no car ride and no waiting room. Your dog is groomed one-on-one with premium, pet-safe products and handed back to you clean, happy, and looking their best."
+          ]
+        }
+      ],
+      "cities": [
+        { "name": "Stuart", "slug": "stuart-fl" },
+        { "name": "Palm City", "slug": "palm-city-fl" },
+        { "name": "Jensen Beach", "slug": "jensen-beach-fl" },
+        { "name": "Hobe Sound", "slug": "hobe-sound-fl" },
+        { "name": "Jupiter Island", "slug": "jupiter-island-fl" },
+        { "name": "Rio", "slug": "" },
+        { "name": "Indiantown", "slug": "indiantown-fl" }
+      ],
+      "faq": [
+        { "q": "Which Martin County towns do you serve?", "a": "We groom across Martin County, including Stuart, Palm City, Jensen Beach, Hobe Sound, Jupiter Island, Rio, Indiantown, and everywhere in between. If you&rsquo;re not sure about your address, call or text 973.896.4547." }
+      ]
+    },
+    {
+      "key": "st-lucie",
+      "slug": "st-lucie-county",
+      "name": "St. Lucie County",
+      "img": "groom-choc-lab.jpg",
+      "imgAlt": "Happy chocolate Labrador in a fruit-print bandana",
+      "intro": [
+        "The Pet-Stetician brings stress-free mobile dog grooming to homes across St. Lucie County, including Port St. Lucie, Tradition, Fort Pierce, and Hutchinson Island. Julia grooms every dog one-on-one in a fully equipped grooming van, parked right outside your home."
+      ],
+      "sections": [
+        {
+          "h2": "Why St. Lucie County families choose mobile grooming",
+          "p": [
+            "St. Lucie County keeps growing, and so does the drive to get anywhere. Mobile grooming takes the trip out of the equation: no loading your dog into the car, no drop-off window, and no waiting hours for pickup.",
+            "Your dog gets one-on-one attention in a calm, quiet van with no cages and no other barking dogs, which is especially helpful for puppies, seniors, and nervous pups."
+          ]
+        }
+      ],
+      "cities": [
+        { "name": "Port St. Lucie", "slug": "port-st-lucie-fl" },
+        { "name": "Fort Pierce", "slug": "fort-pierce-fl" },
+        { "name": "Tradition", "slug": "" },
+        { "name": "Hutchinson Island", "slug": "" }
+      ],
+      "faq": [
+        { "q": "Which St. Lucie County areas do you serve?", "a": "We groom across St. Lucie County, including Port St. Lucie, Tradition, Fort Pierce, Hutchinson Island, and everywhere in between. Not sure if you&rsquo;re in range? Call or text 973.896.4547." }
+      ]
+    }
+  ],
+
+  "cities": [
+    {
+      "slug": "west-palm-beach-fl", "name": "West Palm Beach", "county": "palm-beach",
+      "img": "groom-merle-doodle.jpg", "imgAlt": "Freshly groomed merle doodle with a blue eye and pastel bandana",
+      "intro": "West Palm Beach is the county seat and the biggest city in Palm Beach County, and it&rsquo;s right in the heart of our service area. Julia brings her fully equipped grooming van to your home, from the historic neighborhoods north of downtown to the newer communities out west, so your dog is groomed one-on-one without a trip to a busy salon.",
+      "h2": "Grooming tips for West Palm Beach dogs",
+      "p": [
+        "City dogs here deal with hot pavement, humid afternoons, and plenty of walks along the waterfront. Regular brushing and a bath every few weeks keep coats from matting in the humidity, and a neat trim around the paw pads helps your dog keep traction on tile and sidewalks.",
+        "Live in a condo or townhome? Mention your building and parking situation when you book so we can plan where the van parks. The groom happens inside the van, so the main thing we need is a spot close to your door."
+      ],
+      "nearby": ["lake-worth-fl", "royal-palm-beach-fl", "palm-beach-gardens-fl", "north-palm-beach-fl"],
+      "faq": { "q": "Can you groom my dog if I live in a West Palm Beach condo?", "a": "In most cases, yes. The groom happens inside the van, so we just need a place to park close to your building. Let us know about any parking or guest rules when you book, or call 973.896.4547 if you&rsquo;re unsure." }
+    },
+    {
+      "slug": "palm-beach-gardens-fl", "name": "Palm Beach Gardens", "county": "palm-beach",
+      "img": "groom-golden.jpg", "imgAlt": "Freshly groomed golden retriever in a blue gingham bandana",
+      "intro": "From the neighborhoods off PGA Boulevard to the golf and gated communities to the west, Palm Beach Gardens is a natural fit for mobile grooming. Your dog stays close to home, gets Julia&rsquo;s full attention, and skips the car ride and the kennel wait.",
+      "h2": "Gated community? Here&rsquo;s how it works",
+      "p": [
+        "Many Palm Beach Gardens neighborhoods have a guard gate or a guest list. When you book, add The Pet-Stetician as an expected visitor and note any gate instructions so Julia can pull right up to your home on time.",
+        "Gardens dogs spend lots of time on manicured lawns and golf-course paths, which means grass seeds, sticky paws, and coats that pick up everything. A tidy paw trim and a regular brush-out make a big difference between full grooms."
+      ],
+      "nearby": ["jupiter-fl", "north-palm-beach-fl", "west-palm-beach-fl", "juno-beach-fl"],
+      "faq": { "q": "Can you come to a gated community in Palm Beach Gardens?", "a": "Yes. Just add us to your gate or guest list and put any access instructions in your booking notes so Julia can get straight to your door." }
+    },
+    {
+      "slug": "jupiter-fl", "name": "Jupiter", "county": "palm-beach",
+      "img": "groom-beach-pup.jpg", "imgAlt": "Freshly groomed tan and white puppy in a beach bandana",
+      "intro": "Jupiter dogs live the good life: beach walks, boat days, and long afternoons outside. The Pet-Stetician brings the grooming van to your Jupiter home so your pup gets cleaned up one-on-one, right in your driveway.",
+      "h2": "Beach dogs need a little extra care",
+      "p": [
+        "Sand, salt water, and sun are hard on a coat. Salt can dry out skin and fur, and sand works its way down to the skin and between the toes. If your dog loves the dog beach along A1A, a fresh bath and thorough brush-out every few weeks keeps their coat soft and their skin comfortable.",
+        "Rinsing your dog with fresh water after the beach helps between appointments. Julia can also suggest a grooming schedule and a coat length that&rsquo;s easier to keep clean through the summer."
+      ],
+      "nearby": ["tequesta-fl", "juno-beach-fl", "palm-beach-gardens-fl", "hobe-sound-fl"],
+      "faq": { "q": "How often should a Jupiter beach dog be groomed?", "a": "Dogs that swim or play in the sand often do best on the shorter end of the usual 4&ndash;8 week schedule, with a fresh-water rinse at home after beach days. Julia can recommend the right timing for your dog&rsquo;s coat." }
+    },
+    {
+      "slug": "wellington-fl", "name": "Wellington", "county": "palm-beach",
+      "img": "dog-schnauzer.jpg", "imgAlt": "Freshly groomed schnauzer wearing a green bandana",
+      "intro": "Wellington is known around the world for horses, and plenty of its dogs spend their days around barns, paddocks, and big backyards. The Pet-Stetician brings stress-free, one-on-one grooming to your Wellington home, so there&rsquo;s no need to load anyone into the car.",
+      "h2": "Barn dogs and big backyards",
+      "p": [
+        "Dogs that hang out at the barn tend to collect dirt, shavings, burrs, and the occasional surprise in their coat. A deep-clean bath and full brush-out gets them back to fresh, and keeping their coat at a practical length makes the weeks between grooms much easier.",
+        "Because the van comes to you, it&rsquo;s easy to fit a groom in around lessons, shows, and busy family schedules. Just let us know where to park when you book."
+      ],
+      "nearby": ["royal-palm-beach-fl", "west-palm-beach-fl", "lake-worth-fl", "boynton-beach-fl"],
+      "faq": { "q": "Can you groom my dog at a Wellington horse property?", "a": "As long as there&rsquo;s a place for the van to park near you, yes. Add your address and any gate or parking notes when you book, or call 973.896.4547 to check." }
+    },
+    {
+      "slug": "boynton-beach-fl", "name": "Boynton Beach", "county": "palm-beach",
+      "img": "groom-bichon-daisy.jpg", "imgAlt": "Freshly groomed white bichon in a yellow daisy bandana",
+      "intro": "Boynton Beach sits at the southern end of our Palm Beach County service area, with coastal neighborhoods near the Intracoastal and family communities stretching west. Wherever you are in Boynton, Julia can bring the grooming van right to your home.",
+      "h2": "Easier grooming for dogs of every age",
+      "p": [
+        "Mobile grooming takes the hardest parts out of the day, especially for older dogs and their people: no lifting a dog into the car, no waiting room, and no long drive home. Julia is patient with senior pups and works at your dog&rsquo;s pace.",
+        "Because Boynton is toward the southern edge of our range, booking a little ahead helps us plan the route. If you aren&rsquo;t sure whether your address is covered, call or text 973.896.4547."
+      ],
+      "nearby": ["lake-worth-fl", "wellington-fl", "west-palm-beach-fl"],
+      "faq": { "q": "Do you groom senior dogs in Boynton Beach?", "a": "Yes. One-on-one grooming at home is often much easier on older dogs. Julia works at your dog&rsquo;s pace and is patient with pups who need a little extra care." }
+    },
+    {
+      "slug": "lake-worth-fl", "name": "Lake Worth", "county": "palm-beach",
+      "img": "groom-chihuahua.jpg", "imgAlt": "Freshly groomed chihuahua mix in a pink rainbow bandana",
+      "intro": "From Lake Worth Beach&rsquo;s colorful downtown to the neighborhoods west of I-95, The Pet-Stetician brings mobile grooming to dogs across the Lake Worth area. Julia grooms your dog one-on-one in her fully equipped van, parked right outside your home.",
+      "h2": "Small dogs, big personalities",
+      "p": [
+        "Small dogs often feel much more relaxed being groomed close to home, without the noise of a busy salon full of barking dogs. Every groom is tailored to your dog&rsquo;s coat and temperament, from a custom haircut to a simple bath and tidy-up.",
+        "Hot sidewalks are tough on paws in summer. Keeping the fur between paw pads trimmed and nails at a healthy length helps little dogs walk comfortably."
+      ],
+      "nearby": ["west-palm-beach-fl", "boynton-beach-fl", "wellington-fl", "royal-palm-beach-fl"],
+      "faq": { "q": "Is mobile grooming good for nervous small dogs?", "a": "Often, yes. Being groomed one-on-one, right outside home, with no cages and no other barking dogs, is calmer for many small and anxious dogs." }
+    },
+    {
+      "slug": "royal-palm-beach-fl", "name": "Royal Palm Beach", "county": "palm-beach",
+      "img": "dog-doodle.jpg", "imgAlt": "Freshly groomed doodle wearing a plaid bandana",
+      "intro": "Royal Palm Beach is full of family neighborhoods, parks, and dogs who are part of the family. The Pet-Stetician makes grooming one less errand: Julia brings the grooming van to your Royal Palm Beach home and takes care of your pup right there.",
+      "h2": "Grooming that fits a family schedule",
+      "p": [
+        "Between school runs, sports, and work, finding time to drop a dog off at a salon and pick them up hours later is hard. With mobile grooming there&rsquo;s no drop-off window and no waiting; your dog is groomed one-on-one in the van and handed back clean and happy.",
+        "Kids and dogs mean muddy paws and backyard adventures. Regular baths, nail trims, and ear cleaning keep family dogs comfortable, and your couch a little cleaner."
+      ],
+      "nearby": ["wellington-fl", "west-palm-beach-fl", "lake-worth-fl"],
+      "faq": { "q": "What services can I book in Royal Palm Beach?", "a": "All of our services come to you: bath &amp; brush, haircuts &amp; styling, de-shedding, nail trimming, ear cleaning, and puppy grooming. Every groom is tailored to your dog&rsquo;s coat and temperament." }
+    },
+    {
+      "slug": "north-palm-beach-fl", "name": "North Palm Beach", "county": "palm-beach",
+      "img": "groom-shihtzu.jpg", "imgAlt": "Freshly groomed shih tzu in a green shamrock bandana",
+      "intro": "North Palm Beach is a waterfront village between Palm Beach Gardens and Juno Beach, with plenty of boat-loving and beach-loving dogs. The Pet-Stetician brings stress-free mobile grooming right to your North Palm Beach driveway.",
+      "h2": "Water dogs and humid days",
+      "p": [
+        "Dogs that swim, ride on the boat, or play by the water can end up with damp coats that stay humid and start to tangle or smell. A thorough bath, dry, and brush-out resets the coat, and regular ear cleaning matters for dogs who spend a lot of time in the water.",
+        "Julia can help you choose a coat length and grooming schedule that work with your dog&rsquo;s time on the water."
+      ],
+      "nearby": ["palm-beach-gardens-fl", "juno-beach-fl", "jupiter-fl", "west-palm-beach-fl"],
+      "faq": { "q": "Why does ear cleaning matter for dogs that swim?", "a": "Moisture trapped in the ears can lead to buildup and irritation. Gentle, regular ear cleaning as part of a groom helps keep ears clean. If you notice redness, odor, or lots of scratching, check with your vet." }
+    },
+    {
+      "slug": "juno-beach-fl", "name": "Juno Beach", "county": "palm-beach",
+      "img": "groom-flamingo-doodle.jpg", "imgAlt": "Freshly groomed black and white doodle in a pink flamingo bandana",
+      "intro": "Juno Beach is a small coastal town between North Palm Beach and Jupiter, and The Pet-Stetician grooms dogs here right outside their own homes. No car ride, no salon wait, just one-on-one grooming close to home.",
+      "h2": "Coastal living, cleaner coats",
+      "p": [
+        "Salty air and sandy walks are part of life in Juno Beach. Regular baths and brush-outs keep salt and sand from drying out your dog&rsquo;s skin, and a paw tidy keeps sand from collecting between the toes.",
+        "Book online any time, or call or text 973.896.4547 to find a time that works for you."
+      ],
+      "nearby": ["jupiter-fl", "north-palm-beach-fl", "palm-beach-gardens-fl", "tequesta-fl"],
+      "faq": { "q": "What&rsquo;s the best haircut for a Florida beach dog?", "a": "It depends on the coat. Many curly and doodle coats are easier to keep clean in a shorter summer trim, but double-coated breeds like goldens and huskies usually shouldn&rsquo;t be shaved, since their coat helps protect them from heat and sun. Julia will recommend what suits your dog." }
+    },
+    {
+      "slug": "tequesta-fl", "name": "Tequesta", "county": "palm-beach",
+      "img": "groom-merle-doodle.jpg", "imgAlt": "Freshly groomed merle doodle with a blue eye and pastel bandana",
+      "intro": "Tequesta is the northernmost village in Palm Beach County, right on the Martin County line, and it&rsquo;s part of The Pet-Stetician&rsquo;s service area. Julia brings her grooming van to your Tequesta home for calm, one-on-one grooming.",
+      "h2": "Quiet neighborhoods, calm grooming",
+      "p": [
+        "Tequesta&rsquo;s riverfront and tree-lined neighborhoods are a great fit for mobile grooming. Your dog stays on familiar ground, there are no other dogs barking nearby, and Julia can focus entirely on your pup.",
+        "Dogs who explore the trails and riverbanks can come home with burrs, sand, or tangles. A regular brush-out between full grooms keeps small tangles from turning into mats."
+      ],
+      "nearby": ["jupiter-fl", "jupiter-island-fl", "hobe-sound-fl", "juno-beach-fl"],
+      "faq": { "q": "How do I keep my dog&rsquo;s coat from matting between grooms?", "a": "Brush a few times a week, paying extra attention behind the ears, under the legs, and around the collar, where mats start first. Regular grooms every 4&ndash;8 weeks keep the coat manageable." }
+    },
+    {
+      "slug": "stuart-fl", "name": "Stuart", "county": "martin",
+      "img": "groom-golden.jpg", "imgAlt": "Freshly groomed golden retriever in a blue gingham bandana",
+      "intro": "Stuart is the county seat of Martin County and the heart of our Martin County service area. From downtown and the waterfront to the neighborhoods along the St. Lucie River, The Pet-Stetician brings stress-free grooming right to your door.",
+      "h2": "Grooming for Sailfish Capital dogs",
+      "p": [
+        "Stuart calls itself the Sailfish Capital of the World, and lots of local dogs are right there on the boat or the dock with their people. Salt water, sun, and humidity all take a toll on coats, so a regular bath, brush-out, and nail trim keeps boat dogs comfortable and looking their best.",
+        "Mobile grooming is especially easy on dogs who don&rsquo;t love the car. The van parks at your home, your dog is groomed one-on-one, and they&rsquo;re back inside as soon as they&rsquo;re done."
+      ],
+      "nearby": ["palm-city-fl", "jensen-beach-fl", "hobe-sound-fl", "port-st-lucie-fl"],
+      "faq": { "q": "Do you groom dogs in downtown Stuart?", "a": "Yes. Stuart is part of our Martin County service area. Book online, or call or text 973.896.4547 to check availability for your address." }
+    },
+    {
+      "slug": "palm-city-fl", "name": "Palm City", "county": "martin",
+      "img": "dog-doodle.jpg", "imgAlt": "Freshly groomed doodle wearing a plaid bandana",
+      "intro": "Palm City sits just across the St. Lucie River from Stuart, with established neighborhoods, golf communities, and dog-friendly yards. The Pet-Stetician brings the grooming van to your Palm City home for calm, one-on-one care.",
+      "h2": "Doodles, retrievers, and family favorites",
+      "p": [
+        "Family favorites like doodles and retrievers have coats that need regular attention. Curly coats mat quickly in Florida humidity, while double coats shed constantly. Whether your dog needs a stylish trim or a serious de-shedding, every groom is tailored to the coat.",
+        "Prefer a set schedule? Most dogs do best with a groom every 4&ndash;8 weeks, and Julia can recommend the right rhythm for your dog."
+      ],
+      "nearby": ["stuart-fl", "port-st-lucie-fl", "jensen-beach-fl", "indiantown-fl"],
+      "faq": { "q": "How often should a doodle be groomed?", "a": "Most doodles do best on the shorter end of the 4&ndash;8 week range, with regular brushing at home in between. Their curly coats tangle easily, especially in Florida humidity." }
+    },
+    {
+      "slug": "jensen-beach-fl", "name": "Jensen Beach", "county": "martin",
+      "img": "groom-beach-pup.jpg", "imgAlt": "Freshly groomed tan and white puppy in a beach bandana",
+      "intro": "Jensen Beach sits along the Indian River Lagoon just north of Stuart, with easy access to the beaches on Hutchinson Island. The Pet-Stetician brings mobile grooming to Jensen Beach homes so your dog can skip the salon and get pampered close to home.",
+      "h2": "Lagoon and beach life",
+      "p": [
+        "Between lagoon walks, beach days, and Florida sun, Jensen Beach dogs get dirty in the best way. A deep-clean bath and conditioner help restore a coat dried out by salt and sun, and a brush-out removes the sand and loose undercoat that builds up.",
+        "Julia uses premium, pet-safe products and grooms one-on-one, so your dog gets a gentle, unhurried experience every time."
+      ],
+      "nearby": ["stuart-fl", "port-st-lucie-fl", "palm-city-fl"],
+      "faq": { "q": "Do you groom dogs on Hutchinson Island?", "a": "Yes. Hutchinson Island is part of our service area. Add your address and any building or parking notes when you book." }
+    },
+    {
+      "slug": "hobe-sound-fl", "name": "Hobe Sound", "county": "martin",
+      "img": "dog-schnauzer.jpg", "imgAlt": "Freshly groomed schnauzer wearing a green bandana",
+      "intro": "Hobe Sound is a laid-back corner of southern Martin County, close to Jonathan Dickinson State Park and the beaches. The Pet-Stetician grooms Hobe Sound dogs right outside their homes, with no car ride and no waiting room.",
+      "h2": "Trail dogs and outdoor adventures",
+      "p": [
+        "Dogs who hike the trails or explore the scrub and riverbanks come home with sand, burrs, and tangles. A thorough bath and brush-out gets everything out, and a neat trim around the feet keeps outdoor dogs comfortable.",
+        "After outdoor adventures, check your dog for ticks and anything stuck in the coat. If you notice irritated skin or anything unusual, check with your vet."
+      ],
+      "nearby": ["jupiter-island-fl", "tequesta-fl", "stuart-fl", "jupiter-fl"],
+      "faq": { "q": "Is Hobe Sound in your service area?", "a": "Yes. Hobe Sound is part of our Martin County service area. Book online, or call or text 973.896.4547 if you have questions about your address." }
+    },
+    {
+      "slug": "jupiter-island-fl", "name": "Jupiter Island", "county": "martin",
+      "img": "groom-bichon-daisy.jpg", "imgAlt": "Freshly groomed white bichon in a yellow daisy bandana",
+      "intro": "Jupiter Island is a quiet barrier-island town in southern Martin County, and The Pet-Stetician brings private, one-on-one grooming right to your home there. Your dog stays relaxed on familiar ground while Julia handles the rest.",
+      "h2": "Private, one-on-one grooming",
+      "p": [
+        "Mobile grooming is about as private as grooming gets. There are no other dogs in the van, no cages, and no shared waiting room. Julia focuses entirely on your dog, using premium, pet-safe products and a style tailored to their coat.",
+        "Island dogs spend plenty of time in the sun, sand, and salt water. Regular baths and brush-outs keep coats soft and skin comfortable."
+      ],
+      "nearby": ["hobe-sound-fl", "tequesta-fl", "jupiter-fl"],
+      "faq": { "q": "Will there be other dogs in the grooming van?", "a": "No. Every groom is one-on-one, so your dog has Julia&rsquo;s full attention, with no other dogs, no cages, and no waiting." }
+    },
+    {
+      "slug": "indiantown-fl", "name": "Indiantown", "county": "martin",
+      "img": "groom-choc-lab.jpg", "imgAlt": "Happy chocolate Labrador in a fruit-print bandana",
+      "intro": "Indiantown is in western Martin County, with more open space, bigger properties, and plenty of hard-working outdoor dogs. The Pet-Stetician brings mobile grooming out to Indiantown so you don&rsquo;t have to make the long drive for a groom.",
+      "h2": "Country dogs deserve a spa day too",
+      "p": [
+        "Dogs that spend their days outside collect dirt, burrs, and loose undercoat fast. A deep-clean bath, de-shedding, and nail trim leaves them clean and comfortable, and a practical coat length makes daily life easier.",
+        "Because Indiantown is on the western edge of our area, please book ahead or call 973.896.4547 to check availability for your address."
+      ],
+      "nearby": ["palm-city-fl", "stuart-fl"],
+      "faq": { "q": "Do you travel to Indiantown?", "a": "Yes. Indiantown is part of our Martin County service area. Booking ahead helps us plan the route, and you can always call or text to confirm your address is covered." }
+    },
+    {
+      "slug": "port-st-lucie-fl", "name": "Port St. Lucie", "county": "st-lucie",
+      "img": "groom-choc-lab.jpg", "imgAlt": "Happy chocolate Labrador in a fruit-print bandana",
+      "intro": "Port St. Lucie is the largest city in St. Lucie County, stretching from the St. Lucie River out to Tradition and the newer neighborhoods to the west. Wherever you are in PSL, The Pet-Stetician brings the grooming van to you.",
+      "h2": "Grooming without the cross-town drive",
+      "p": [
+        "Port St. Lucie is spread out, and getting across town for a salon appointment can eat up an afternoon. With mobile grooming you skip the traffic and the waiting room. Julia parks at your home and grooms your dog one-on-one.",
+        "New puppy in the family? A gentle first groom close to home helps puppies build positive associations with bathing, brushing, and nail trims."
+      ],
+      "nearby": ["fort-pierce-fl", "jensen-beach-fl", "stuart-fl", "palm-city-fl"],
+      "faq": { "q": "Do you groom dogs in Tradition?", "a": "Yes. Tradition and the rest of Port St. Lucie are part of our St. Lucie County service area." }
+    },
+    {
+      "slug": "fort-pierce-fl", "name": "Fort Pierce", "county": "st-lucie",
+      "img": "groom-shihtzu.jpg", "imgAlt": "Freshly groomed shih tzu in a green shamrock bandana",
+      "intro": "Fort Pierce is the county seat of St. Lucie County, with a historic downtown on the Indian River Lagoon and beaches just across the water. The Pet-Stetician brings mobile dog grooming to Fort Pierce homes so your dog can get pampered without leaving home.",
+      "h2": "The northern edge of our service area",
+      "p": [
+        "Fort Pierce is at the northern edge of where we groom, so booking a little ahead helps us plan the route. If you&rsquo;re not sure whether your address is in range, call or text 973.896.4547 and we&rsquo;ll let you know.",
+        "Coastal and lagoon dogs here deal with salt, sand, and humidity. A regular bath, brush-out, and ear cleaning keeps them clean and comfortable between beach days."
+      ],
+      "nearby": ["port-st-lucie-fl", "jensen-beach-fl"],
+      "faq": { "q": "How far north do you groom?", "a": "We serve St. Lucie County, including Fort Pierce. If you&rsquo;re farther north or unsure about your address, call or text 973.896.4547 to check." }
+    }
+  ],
+
+  "services": [
+    {
+      "slug": "bath-and-brush", "name": "Bath &amp; Brush", "h1": "Mobile Dog Bath &amp; Brush",
+      "short": "Deep clean, condition, and brush-out for a soft, fresh coat.",
+      "img": "groom-bichon-daisy.jpg", "imgAlt": "Freshly groomed white bichon in a yellow daisy bandana",
+      "quick": "A mobile bath &amp; brush is a deep-clean bath, conditioning, and full brush-out, done in The Pet-Stetician&rsquo;s grooming van parked right outside your home in Palm Beach, Martin, or St. Lucie County. It&rsquo;s a great way to keep your dog fresh and comfortable between haircuts.",
+      "sections": [
+        { "h2": "What a bath &amp; brush is for", "p": [ "A bath &amp; brush is about a clean, healthy coat rather than a new haircut. It&rsquo;s a great fit for short-coated dogs, for dogs between haircuts, and for any pup who&rsquo;s been rolling in something they shouldn&rsquo;t have." ] },
+        { "h2": "Who it&rsquo;s great for", "ul": [ "Short-coated breeds like Labs, beagles, and boxers", "Dogs who are between full haircuts", "Beach and pool dogs who need salt, chlorine, and sand washed out", "Senior dogs who do best with a simpler, gentler visit" ] },
+        { "h2": "Pair it with", "p": [ "Combine a bath &amp; brush with <a href='/services/de-shedding'>de-shedding</a>, nail trimming, or ear cleaning for a more complete refresh. If your dog needs a new look too, book <a href='/services/haircuts-and-styling'>haircuts &amp; styling</a> instead." ] }
+      ],
+      "faq": [
+        { "q": "How often should my dog have a professional bath?", "a": "Most dogs do well with a professional bath every 4&ndash;8 weeks, depending on coat and lifestyle. Dogs who swim or play outside a lot may need one more often." },
+        { "q": "Is a bath &amp; brush the same as a full groom?", "a": "No. A bath &amp; brush focuses on cleaning, conditioning, and brushing the coat. If your dog also needs a haircut or style, book haircuts &amp; styling instead." }
+      ],
+      "related": ["haircuts-and-styling", "de-shedding", "puppy-grooming"]
+    },
+    {
+      "slug": "haircuts-and-styling", "name": "Haircuts &amp; Styling", "h1": "Mobile Dog Haircuts &amp; Styling",
+      "short": "Breed-standard or custom styles that suit your pet perfectly.",
+      "img": "groom-merle-doodle.jpg", "imgAlt": "Freshly groomed merle doodle with a blue eye and pastel bandana",
+      "quick": "Mobile dog haircuts &amp; styling from The Pet-Stetician means a breed-standard or custom cut, done one-on-one by Julia in a fully equipped grooming van at your home. Every style is tailored to your dog&rsquo;s coat, lifestyle, and your preferences.",
+      "sections": [
+        { "h2": "Breed-standard or your own style", "p": [ "Some pet parents want the classic breed look; others want something practical for Florida weather, or just plain cute. Tell Julia what you like, share a photo if you have one, and she&rsquo;ll tailor the cut to your dog&rsquo;s coat type and temperament." ] },
+        { "h2": "Doodles, poodles, and curly coats", "p": [ "Curly and wavy coats keep growing and mat quickly in humidity, so they need regular haircuts. Doodles, poodles, bichons, shih tzus, schnauzers, and other low-shedding breeds usually do best on a steady schedule." ] },
+        { "h2": "A note on shaving double coats", "p": [ "Double-coated breeds like goldens, shepherds, and huskies usually shouldn&rsquo;t be shaved down, because their coat helps regulate temperature and protect their skin from the sun. For these dogs, <a href='/services/de-shedding'>de-shedding</a> and a tidy trim are usually the better choice." ] }
+      ],
+      "faq": [
+        { "q": "How often does my dog need a haircut?", "a": "Most dogs with growing coats, like doodles, poodles, and shih tzus, do well with a haircut every 4&ndash;8 weeks. Julia can recommend a schedule based on your dog&rsquo;s coat and the length you like." },
+        { "q": "What should I tell the groomer before a haircut?", "a": "Your preferred length and style, any problem areas, and anything about your dog&rsquo;s temperament, health, or sensitive spots. You can add notes when you book online." }
+      ],
+      "related": ["bath-and-brush", "de-shedding", "puppy-grooming"]
+    },
+    {
+      "slug": "de-shedding", "name": "De-Shedding", "h1": "Mobile Dog De-Shedding",
+      "short": "Reduce shedding and keep your home (and pup) fur-free.",
+      "img": "groom-golden.jpg", "imgAlt": "Freshly groomed golden retriever in a blue gingham bandana",
+      "quick": "De-shedding is a bath and thorough brush-out that removes loose undercoat before it ends up on your floors and furniture. The Pet-Stetician does it one-on-one in a mobile grooming van at your home in Palm Beach, Martin, and St. Lucie Counties.",
+      "sections": [
+        { "h2": "Why Florida dogs shed so much", "p": [ "Many dogs blow their coat seasonally, but in Florida&rsquo;s warm climate shedding can feel like it never stops. Double-coated breeds hold onto a dense undercoat that, if it isn&rsquo;t removed, traps heat and moisture against the skin." ] },
+        { "h2": "Who needs de-shedding", "ul": [ "Golden retrievers and Labs", "German shepherds, huskies, and other double-coated breeds", "Corgis, Australian shepherds, and herding breeds", "Any dog leaving tumbleweeds of fur around the house" ] },
+        { "h2": "Keeping shedding under control at home", "p": [ "Brushing a few times a week with the right brush for your dog&rsquo;s coat, plus a professional de-shed every 4&ndash;8 weeks, keeps the undercoat from building up. Ask Julia which brush suits your dog." ] }
+      ],
+      "faq": [
+        { "q": "Should I shave my double-coated dog to stop shedding?", "a": "Usually not. A double coat helps protect your dog from heat and sun, and shaving can affect how it grows back. Regular de-shedding removes the loose undercoat without taking away that protection." },
+        { "q": "How often should I book de-shedding?", "a": "Every 4&ndash;8 weeks is typical, and more often during heavy shedding seasons." }
+      ],
+      "related": ["bath-and-brush", "haircuts-and-styling", "puppy-grooming"]
+    },
+    {
+      "slug": "puppy-grooming", "name": "Puppy Grooming", "h1": "Mobile Puppy Grooming",
+      "short": "Positive, patient first grooms to build lifelong comfort.",
+      "img": "groom-beach-pup.jpg", "imgAlt": "Freshly groomed tan and white puppy in a beach bandana",
+      "quick": "Puppy grooming at The Pet-Stetician is a gentle, patient introduction to bathing, brushing, and nail trims, done one-on-one in a mobile grooming van at your home. Grooming close to home, with no cages or barking dogs, helps puppies grow up comfortable with grooming.",
+      "sections": [
+        { "h2": "Why first grooms matter", "p": [ "A puppy&rsquo;s first grooming experiences shape how they feel about grooming for life. Positive, unhurried early visits help them get used to being handled, bathed, dried, and brushed, which makes every future groom easier for everyone." ] },
+        { "h2": "Why mobile grooming is great for puppies", "ul": [ "No car ride to a strange place", "No cages and no waiting with other dogs", "One groomer, one puppy, full attention", "Familiar surroundings right outside home" ] },
+        { "h2": "Helping your puppy at home", "p": [ "Gently handle your puppy&rsquo;s paws, ears, and face every day, and keep short brushing sessions positive with treats. These small habits make real grooms much easier." ] }
+      ],
+      "faq": [
+        { "q": "When should my puppy have their first groom?", "a": "Check with your vet about vaccines and timing, then book a gentle first groom. Starting early with short, positive visits helps puppies get comfortable with grooming." },
+        { "q": "What happens at a puppy&rsquo;s first groom?", "a": "The focus is on making grooming a good experience: a gentle bath, brushing, and a nail trim as your puppy is comfortable, with plenty of patience along the way." }
+      ],
+      "related": ["bath-and-brush", "haircuts-and-styling", "de-shedding"]
+    }
+  ],
+
+  "guide": {
+    "slug": "mobile-dog-grooming-guide",
+    "title": "How Mobile Dog Grooming Works | The Pet-Stetician",
+    "description": "How mobile dog grooming works, step by step: booking, what happens when the van arrives, how it compares to a salon, how to prepare, and how often to groom.",
+    "h1": "How Mobile Dog Grooming Works",
+    "quick": "Mobile dog grooming means the groomer comes to you. With The Pet-Stetician, you book online, Julia arrives at your home in a fully equipped grooming van, grooms your dog one-on-one right outside your door, and hands them back clean and happy. There&rsquo;s no car ride, no cage, and no waiting.",
+    "steps": [
+      "<strong>Book.</strong> Book online through our <a href='https://booking.moego.pet/ol/landing?name=ThePetStetician' target='_blank' rel='noopener'>booking page</a>, or call or text 973.896.4547. Add your address, your dog&rsquo;s breed, and any notes.",
+      "<strong>The van arrives.</strong> Julia pulls up in the grooming van and parks close to your home.",
+      "<strong>One-on-one groom.</strong> Your dog is groomed in the van with premium, pet-safe products, with no other dogs and no cages.",
+      "<strong>Back home, looking great.</strong> Your dog comes back to you clean, happy, and looking their best."
+    ],
+    "compare": [
+      ["Car ride", "None, we come to you", "To and from the salon"],
+      ["Waiting", "No drop-off window or pickup wait", "Often a drop-off and hours of waiting"],
+      ["Other dogs", "None, it&rsquo;s one-on-one", "Usually several dogs at once"],
+      ["Cages", "No cages", "Often kenneled while waiting"]
+    ],
+    "prep": [
+      "Share gate codes, guest-list details, or parking rules in your booking notes.",
+      "Take your dog out for a potty break before the groom.",
+      "Mention any health issues, sensitive spots, or behavior concerns.",
+      "If you have a style in mind, have a photo ready to show Julia."
+    ],
+    "faq": [
+      { "q": "Is mobile grooming better for anxious dogs?", "a": "For many dogs, yes. There&rsquo;s no car ride, no cages, and no other barking dogs, and your dog gets one groomer&rsquo;s full attention close to home." },
+      { "q": "What dogs can be groomed in a mobile van?", "a": "All breeds and sizes, from tiny puppies to big dogs. Every groom is tailored to your dog&rsquo;s coat type, temperament, and your preferences." },
+      { "q": "How much does mobile dog grooming cost?", "a": "Pricing depends on your dog&rsquo;s size, coat type, and the services you choose. Reach out for a quick, personalized quote." },
+      { "q": "How often should my dog be groomed?", "a": "Most dogs do well with grooming every 4&ndash;8 weeks, depending on breed and coat." }
+    ]
+  }
+}

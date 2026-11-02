@@ -21,7 +21,8 @@ document.getElementById('year').textContent = new Date().getFullYear();
 const form = document.getElementById('contactForm');
 const note = document.getElementById('formNote');
 
-form.addEventListener('submit', async (e) => {
+// Landing pages share this script but have no contact form
+if (form) form.addEventListener('submit', async (e) => {
   e.preventDefault();
   const btn = form.querySelector('button[type="submit"]');
   const original = btn.textContent;

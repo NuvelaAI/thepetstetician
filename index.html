@@ -3,19 +3,30 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>The Pet-Stetician | Mobile Pet Grooming — Palm Beach, Martin & St. Lucie Counties</title>
-  <meta name="description" content="The Pet-Stetician offers stress-free mobile dog grooming in the comfort of your home. Serving Palm Beach, Martin & St. Lucie Counties, FL. Bath & brush, haircuts, de-shedding, nail trimming and more." />
+  <title>Mobile Dog Grooming in Palm Beach, Martin &amp; St. Lucie | The Pet-Stetician</title>
+  <meta name="description" content="The Pet-Stetician offers stress-free mobile dog grooming in the comfort of your home. Serving Palm Beach, Martin &amp; St. Lucie Counties, FL. Bath &amp; brush, haircuts, de-shedding, nail trimming and more." />
+  <meta name="robots" content="index, follow, max-image-preview:large" />
   <meta name="theme-color" content="#f4d7de" />
   <meta name="google-site-verification" content="a2CcuRzgYBWlIXHbrW_OO8VD6UH3K8qWh_-9vgl7ZHU" />
   <link rel="canonical" href="https://www.thepet-stetician.com/" />
 
   <!-- Open Graph -->
-  <meta property="og:title" content="The Pet-Stetician | Mobile Pet Grooming" />
-  <meta property="og:description" content="Your pet's best look, delivered to you. Stress-free mobile grooming in Palm Beach, Martin & St. Lucie Counties." />
+  <meta property="og:site_name" content="The Pet-Stetician" />
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:title" content="The Pet-Stetician | Mobile Dog Grooming in Palm Beach, Martin &amp; St. Lucie" />
+  <meta property="og:description" content="Your pet's best look, delivered to you. Stress-free mobile grooming in Palm Beach, Martin &amp; St. Lucie Counties." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://www.thepet-stetician.com/" />
   <meta property="og:image" content="https://www.thepet-stetician.com/img/van-side.jpg" />
+  <meta property="og:image:width" content="1150" />
+  <meta property="og:image:height" content="450" />
+  <meta property="og:image:alt" content="The Pet-Stetician mobile grooming van" />
   <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="The Pet-Stetician | Mobile Dog Grooming in Palm Beach, Martin &amp; St. Lucie" />
+  <meta name="twitter:description" content="Your pet's best look, delivered to you. Stress-free mobile grooming in Palm Beach, Martin &amp; St. Lucie Counties." />
+  <meta name="twitter:image" content="https://www.thepet-stetician.com/img/van-side.jpg" />
+
+  <link rel="preload" as="image" href="img/julia-portrait.jpg" fetchpriority="high" />
 
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🐾</text></svg>" />
 
@@ -26,39 +37,92 @@
 
   <link rel="stylesheet" href="styles.css" />
 
-  <!-- Structured data: local mobile grooming business -->
+  <!-- Structured data: website + local mobile grooming business + founder -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "LocalBusiness",
-    "name": "The Pet-Stetician",
-    "description": "Stress-free mobile dog grooming that comes to your home, serving Palm Beach, Martin & St. Lucie Counties, FL.",
-    "image": "https://www.thepet-stetician.com/img/van-side.jpg",
-    "logo": "https://www.thepet-stetician.com/img/van-side.jpg",
-    "url": "https://www.thepet-stetician.com/",
-    "telephone": "+1-973-896-4547",
-    "email": "jfedorka1@gmail.com",
-    "priceRange": "$$",
-    "founder": { "@type": "Person", "name": "Julia Begany" },
-    "address": { "@type": "PostalAddress", "addressRegion": "FL", "addressCountry": "US" },
-    "areaServed": [
-      { "@type": "AdministrativeArea", "name": "Palm Beach County, FL" },
-      { "@type": "AdministrativeArea", "name": "Martin County, FL" },
-      { "@type": "AdministrativeArea", "name": "St. Lucie County, FL" }
-    ],
-    "sameAs": [ "https://www.instagram.com/the_pet_stetician/" ],
-    "hasOfferCatalog": {
-      "@type": "OfferCatalog",
-      "name": "Grooming Services",
-      "itemListElement": [
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Bath & Brush" } },
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Haircuts & Styling" } },
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "De-Shedding" } },
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Nail Trimming" } },
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Ear Cleaning" } },
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Puppy Grooming" } }
-      ]
-    }
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://www.thepet-stetician.com/#website",
+        "url": "https://www.thepet-stetician.com/",
+        "name": "The Pet-Stetician",
+        "alternateName": ["Pet-Stetician", "The Pet Stetician", "Pet Stetician", "The Pet Esthetician"],
+        "publisher": { "@id": "https://www.thepet-stetician.com/#business" },
+        "inLanguage": "en-US"
+      },
+      {
+        "@type": "LocalBusiness",
+        "@id": "https://www.thepet-stetician.com/#business",
+        "name": "The Pet-Stetician",
+        "alternateName": ["Pet-Stetician", "The Pet Stetician", "The Pet Esthetician"],
+        "slogan": "Because they're family. They deserve the best.",
+        "description": "Stress-free mobile dog grooming that comes to your home, serving Palm Beach, Martin & St. Lucie Counties, FL. One-on-one grooming in a fully equipped grooming van.",
+        "image": [
+          "https://www.thepet-stetician.com/img/van-side.jpg",
+          "https://www.thepet-stetician.com/img/julia-portrait.jpg",
+          "https://www.thepet-stetician.com/img/groom-golden.jpg"
+        ],
+        "url": "https://www.thepet-stetician.com/",
+        "telephone": "+1-973-896-4547",
+        "email": "jfedorka1@gmail.com",
+        "priceRange": "$$",
+        "founder": { "@id": "https://www.thepet-stetician.com/#julia" },
+        "employee": { "@id": "https://www.thepet-stetician.com/#julia" },
+        "address": { "@type": "PostalAddress", "addressRegion": "FL", "addressCountry": "US" },
+        "areaServed": [
+          { "@type": "AdministrativeArea", "name": "Palm Beach County, FL" },
+          { "@type": "AdministrativeArea", "name": "Martin County, FL" },
+          { "@type": "AdministrativeArea", "name": "St. Lucie County, FL" },
+          { "@type": "City", "name": "West Palm Beach, FL" },
+          { "@type": "City", "name": "Palm Beach Gardens, FL" },
+          { "@type": "City", "name": "Jupiter, FL" },
+          { "@type": "City", "name": "Wellington, FL" },
+          { "@type": "City", "name": "Boynton Beach, FL" },
+          { "@type": "City", "name": "Lake Worth, FL" },
+          { "@type": "City", "name": "Royal Palm Beach, FL" },
+          { "@type": "City", "name": "North Palm Beach, FL" },
+          { "@type": "City", "name": "Juno Beach, FL" },
+          { "@type": "City", "name": "Tequesta, FL" },
+          { "@type": "City", "name": "Stuart, FL" },
+          { "@type": "City", "name": "Palm City, FL" },
+          { "@type": "City", "name": "Jensen Beach, FL" },
+          { "@type": "City", "name": "Hobe Sound, FL" },
+          { "@type": "City", "name": "Jupiter Island, FL" },
+          { "@type": "City", "name": "Indiantown, FL" },
+          { "@type": "City", "name": "Port St. Lucie, FL" },
+          { "@type": "City", "name": "Fort Pierce, FL" }
+        ],
+        "knowsAbout": ["Mobile dog grooming", "Dog haircuts", "Doodle grooming", "Puppy grooming", "De-shedding", "Hand scissoring"],
+        "sameAs": [ "https://www.instagram.com/the_pet_stetician/" ],
+        "potentialAction": {
+          "@type": "ReserveAction",
+          "target": "https://booking.moego.pet/ol/landing?name=ThePetStetician",
+          "name": "Book a mobile grooming appointment"
+        },
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Mobile Dog Grooming Services",
+          "itemListElement": [
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Bath & Brush", "serviceType": "Mobile dog grooming", "description": "Deep clean, condition, and brush-out for a soft, fresh coat." } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Haircuts & Styling", "serviceType": "Mobile dog grooming", "description": "Breed-standard or custom styles that suit your pet perfectly." } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "De-Shedding", "serviceType": "Mobile dog grooming", "description": "Reduce shedding and keep your home (and pup) fur-free." } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Nail Trimming", "serviceType": "Mobile dog grooming", "description": "Safe, careful trims to keep paws healthy and comfy." } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Ear Cleaning", "serviceType": "Mobile dog grooming", "description": "Gentle cleaning to help prevent buildup and infection." } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Puppy Grooming", "serviceType": "Mobile dog grooming", "description": "Positive, patient first grooms to build lifelong comfort." } }
+          ]
+        }
+      },
+      {
+        "@type": "Person",
+        "@id": "https://www.thepet-stetician.com/#julia",
+        "name": "Julia Begany",
+        "jobTitle": "Pet Stylist & Founder",
+        "image": "https://www.thepet-stetician.com/img/julia-portrait.jpg",
+        "worksFor": { "@id": "https://www.thepet-stetician.com/#business" },
+        "url": "https://www.thepet-stetician.com/#about"
+      }
+    ]
   }
   </script>
 
@@ -108,7 +172,7 @@
   <section class="hero">
     <div class="container hero-grid">
       <div class="hero-copy">
-        <p class="eyebrow">🐾 Pet Stylist · Palm Beach, Martin &amp; St. Lucie Counties</p>
+        <p class="eyebrow">🐾 Mobile Dog Grooming · Palm Beach, Martin &amp; St. Lucie Counties</p>
         <h1>Your Pet's <span class="script">Best Look,</span><br />Delivered to You <span class="heart">♡</span></h1>
         <p class="lead pill">Stress-free grooming in the comfort of home.</p>
         <p class="hero-text">Professional, gentle, one-on-one grooming — right in your driveway. No cages, no stress, no car rides. Just a cleaner, happier pet.</p>
@@ -119,7 +183,7 @@
       </div>
       <div class="hero-media">
         <div class="hero-photo">
-          <img src="img/julia-portrait.jpg" alt="Julia Begany, pet stylist, holding a freshly groomed grey poodle" />
+          <img src="img/julia-portrait.jpg" alt="Julia Begany, pet stylist, holding a freshly groomed grey poodle" width="700" height="700" fetchpriority="high" />
         </div>
         <div class="serving-badge">
           <span>SERVING</span>
@@ -157,21 +221,24 @@
     <div class="container">
       <div class="section-head">
         <p class="kicker">What We Offer</p>
-        <h2>Grooming Services</h2>
+        <h2>Mobile Dog Grooming Services</h2>
         <p class="section-sub">Full-service grooming for all breeds, done gently and with care.</p>
       </div>
       <div class="services-grid">
         <article class="service-card">
           <span class="bone">🦴</span><h3>Bath &amp; Brush</h3>
           <p>Deep clean, condition, and brush-out for a soft, fresh coat.</p>
+          <a class="card-link" href="/services/bath-and-brush">Learn more &rarr;</a>
         </article>
         <article class="service-card">
           <span class="bone">🦴</span><h3>Haircuts &amp; Styling</h3>
           <p>Breed-standard or custom styles that suit your pet perfectly.</p>
+          <a class="card-link" href="/services/haircuts-and-styling">Learn more &rarr;</a>
         </article>
         <article class="service-card">
           <span class="bone">🦴</span><h3>De-Shedding</h3>
           <p>Reduce shedding and keep your home (and pup) fur-free.</p>
+          <a class="card-link" href="/services/de-shedding">Learn more &rarr;</a>
         </article>
         <article class="service-card">
           <span class="bone">🦴</span><h3>Nail Trimming</h3>
@@ -184,6 +251,7 @@
         <article class="service-card">
           <span class="bone">🦴</span><h3>Puppy Grooming</h3>
           <p>Positive, patient first grooms to build lifelong comfort.</p>
+          <a class="card-link" href="/services/puppy-grooming">Learn more &rarr;</a>
         </article>
       </div>
       <div class="services-cta">
@@ -202,43 +270,43 @@
       </div>
       <div class="gallery-grid">
         <figure class="arch">
-          <img src="img/groom-flamingo-doodle.jpg" alt="Freshly groomed black and white doodle in a pink flamingo bandana" />
+          <img src="img/groom-flamingo-doodle.jpg" alt="Freshly groomed black and white doodle in a pink flamingo bandana" width="800" height="1066" loading="lazy" decoding="async" />
           <figcaption><span class="heart">♡</span> Summer Ready <small>flamingo fresh</small></figcaption>
         </figure>
         <figure class="arch">
-          <img src="img/groom-golden.jpg" alt="Freshly groomed golden retriever in a blue gingham bandana" />
+          <img src="img/groom-golden.jpg" alt="Freshly groomed golden retriever in a blue gingham bandana" width="800" height="1066" loading="lazy" decoding="async" />
           <figcaption><span class="heart">♡</span> Golden &amp; Glowing <small>big-breed care</small></figcaption>
         </figure>
         <figure class="arch">
-          <img src="img/groom-merle-doodle.jpg" alt="Freshly groomed merle doodle with a blue eye and pastel bandana" />
+          <img src="img/groom-merle-doodle.jpg" alt="Freshly groomed merle doodle with a blue eye and pastel bandana" width="800" height="1066" loading="lazy" decoding="async" />
           <figcaption><span class="heart">♡</span> Blue-Eyed Beauty <small>stylish trim</small></figcaption>
         </figure>
         <figure class="arch">
-          <img src="img/groom-bichon-daisy.jpg" alt="Freshly groomed white bichon in a yellow daisy bandana" />
+          <img src="img/groom-bichon-daisy.jpg" alt="Freshly groomed white bichon in a yellow daisy bandana" width="800" height="1066" loading="lazy" decoding="async" />
           <figcaption><span class="heart">♡</span> Fresh as a Daisy <small>fluffy &amp; clean</small></figcaption>
         </figure>
         <figure class="arch">
-          <img src="img/groom-choc-lab.jpg" alt="Happy chocolate Labrador in a fruit-print bandana" />
+          <img src="img/groom-choc-lab.jpg" alt="Happy chocolate Labrador in a fruit-print bandana" width="800" height="1066" loading="lazy" decoding="async" />
           <figcaption><span class="heart">♡</span> Big Happy Smile <small>tail-wagging clean</small></figcaption>
         </figure>
         <figure class="arch">
-          <img src="img/groom-shihtzu.jpg" alt="Freshly groomed shih tzu in a green shamrock bandana" />
+          <img src="img/groom-shihtzu.jpg" alt="Freshly groomed shih tzu in a green shamrock bandana" width="800" height="1066" loading="lazy" decoding="async" />
           <figcaption><span class="heart">♡</span> Lucky &amp; Lovable <small>gentle grooming</small></figcaption>
         </figure>
         <figure class="arch">
-          <img src="img/groom-chihuahua.jpg" alt="Freshly groomed chihuahua mix in a pink rainbow bandana" />
+          <img src="img/groom-chihuahua.jpg" alt="Freshly groomed chihuahua mix in a pink rainbow bandana" width="800" height="1066" loading="lazy" decoding="async" />
           <figcaption><span class="heart">♡</span> Pretty in Pink <small>small-dog specialist</small></figcaption>
         </figure>
         <figure class="arch">
-          <img src="img/groom-beach-pup.jpg" alt="Freshly groomed tan and white puppy in a beach bandana" />
+          <img src="img/groom-beach-pup.jpg" alt="Freshly groomed tan and white puppy in a beach bandana" width="800" height="1066" loading="lazy" decoding="async" />
           <figcaption><span class="heart">♡</span> Beach Day Cutie <small>puppy-friendly</small></figcaption>
         </figure>
         <figure class="arch">
-          <img src="img/dog-schnauzer.jpg" alt="Freshly groomed schnauzer wearing a green bandana" />
+          <img src="img/dog-schnauzer.jpg" alt="Freshly groomed schnauzer wearing a green bandana" width="265" height="310" loading="lazy" decoding="async" />
           <figcaption><span class="heart">♡</span> Expert Care <small>for all breeds</small></figcaption>
         </figure>
         <figure class="arch">
-          <img src="img/dog-doodle.jpg" alt="Freshly groomed doodle wearing a plaid bandana" />
+          <img src="img/dog-doodle.jpg" alt="Freshly groomed doodle wearing a plaid bandana" width="260" height="310" loading="lazy" decoding="async" />
           <figcaption><span class="heart">♡</span> Clean, Happy Pets <small>every time</small></figcaption>
         </figure>
       </div>
@@ -250,7 +318,7 @@
     <div class="container about-grid">
       <div class="about-media">
         <div class="hero-photo small">
-          <img src="img/julia-beach.jpg" alt="Julia Begany, pet stylist, with a happy groomed poodle on the beach" />
+          <img src="img/julia-beach.jpg" alt="Julia Begany, pet stylist, with a happy groomed poodle on the beach" width="390" height="400" loading="lazy" decoding="async" />
         </div>
       </div>
       <div class="about-copy">
@@ -263,7 +331,7 @@
       </div>
     </div>
     <div class="container van-wrap">
-      <img src="img/van-side.jpg" alt="The Pet-Stetician mobile grooming van" class="van-img" />
+      <img src="img/van-side.jpg" alt="The Pet-Stetician mobile dog grooming van serving Palm Beach, Martin &amp; St. Lucie Counties" width="1150" height="450" loading="lazy" decoding="async" class="van-img" />
     </div>
   </section>
 
@@ -319,41 +387,41 @@
     <div class="container">
       <div class="area-inner">
         <div class="area-ico">📍</div>
-        <h2>Areas We Serve</h2>
+        <h2>Mobile Grooming Areas We Serve</h2>
         <p>Fully mobile grooming that comes to you across Palm Beach, Martin, and St. Lucie Counties, Florida — including these cities and everywhere in between. Not sure if you're in our range? Just ask!</p>
       </div>
       <div class="areas-grid">
         <div class="area-col">
-          <h3>Palm Beach County</h3>
+          <h3><a href="/mobile-dog-grooming/palm-beach-county">Palm Beach County</a></h3>
           <ul>
-            <li>West Palm Beach</li>
-            <li>Palm Beach Gardens</li>
-            <li>Jupiter</li>
-            <li>Wellington</li>
-            <li>Boynton Beach</li>
-            <li>Lake Worth</li>
-            <li>Royal Palm Beach</li>
-            <li>North Palm Beach</li>
-            <li>Juno Beach &amp; Tequesta</li>
+            <li><a href="/mobile-dog-grooming/west-palm-beach-fl">West Palm Beach</a></li>
+            <li><a href="/mobile-dog-grooming/palm-beach-gardens-fl">Palm Beach Gardens</a></li>
+            <li><a href="/mobile-dog-grooming/jupiter-fl">Jupiter</a></li>
+            <li><a href="/mobile-dog-grooming/wellington-fl">Wellington</a></li>
+            <li><a href="/mobile-dog-grooming/boynton-beach-fl">Boynton Beach</a></li>
+            <li><a href="/mobile-dog-grooming/lake-worth-fl">Lake Worth</a></li>
+            <li><a href="/mobile-dog-grooming/royal-palm-beach-fl">Royal Palm Beach</a></li>
+            <li><a href="/mobile-dog-grooming/north-palm-beach-fl">North Palm Beach</a></li>
+            <li><a href="/mobile-dog-grooming/juno-beach-fl">Juno Beach</a> &amp; <a href="/mobile-dog-grooming/tequesta-fl">Tequesta</a></li>
           </ul>
         </div>
         <div class="area-col">
-          <h3>Martin County</h3>
+          <h3><a href="/mobile-dog-grooming/martin-county">Martin County</a></h3>
           <ul>
-            <li>Stuart</li>
-            <li>Palm City</li>
-            <li>Jensen Beach</li>
-            <li>Hobe Sound</li>
-            <li>Jupiter Island</li>
+            <li><a href="/mobile-dog-grooming/stuart-fl">Stuart</a></li>
+            <li><a href="/mobile-dog-grooming/palm-city-fl">Palm City</a></li>
+            <li><a href="/mobile-dog-grooming/jensen-beach-fl">Jensen Beach</a></li>
+            <li><a href="/mobile-dog-grooming/hobe-sound-fl">Hobe Sound</a></li>
+            <li><a href="/mobile-dog-grooming/jupiter-island-fl">Jupiter Island</a></li>
             <li>Rio</li>
-            <li>Indiantown</li>
+            <li><a href="/mobile-dog-grooming/indiantown-fl">Indiantown</a></li>
           </ul>
         </div>
         <div class="area-col">
-          <h3>St. Lucie County</h3>
+          <h3><a href="/mobile-dog-grooming/st-lucie-county">St. Lucie County</a></h3>
           <ul>
-            <li>Port St. Lucie</li>
-            <li>Fort Pierce</li>
+            <li><a href="/mobile-dog-grooming/port-st-lucie-fl">Port St. Lucie</a></li>
+            <li><a href="/mobile-dog-grooming/fort-pierce-fl">Fort Pierce</a></li>
             <li>Tradition</li>
             <li>Hutchinson Island</li>
           </ul>
@@ -370,7 +438,7 @@
     <div class="container">
       <div class="section-head">
         <p class="kicker">Good to Know</p>
-        <h2>Frequently Asked Questions</h2>
+        <h2>Mobile Dog Grooming FAQ</h2>
         <p class="section-sub">Everything you need to know about mobile grooming with The Pet-Stetician.</p>
       </div>
       <div class="faq-list">
@@ -384,7 +452,7 @@
         </details>
         <details>
           <summary>How does mobile grooming work?</summary>
-          <p>We come to you. Julia arrives in a fully equipped grooming van and grooms your pet one-on-one right outside your home — no cages, no long waits, and no stressful car rides. Your pup comes back to you clean, happy, and looking their best.</p>
+          <p>We come to you. Julia arrives in a fully equipped grooming van and grooms your pet one-on-one right outside your home — no cages, no long waits, and no stressful car rides. Your pup comes back to you clean, happy, and looking their best. <a href="/mobile-dog-grooming-guide">See how mobile grooming works</a>.</p>
         </details>
         <details>
           <summary>What dogs do you groom?</summary>
@@ -484,6 +552,11 @@
   <!-- ===== Footer ===== -->
   <footer class="site-footer">
     <div class="stripe-bar" aria-hidden="true"></div>
+    <div class="container footer-links">
+      <div><h4>Areas We Serve</h4><ul><li><a href="/mobile-dog-grooming/palm-beach-county">Palm Beach County</a></li><li><a href="/mobile-dog-grooming/martin-county">Martin County</a></li><li><a href="/mobile-dog-grooming/st-lucie-county">St. Lucie County</a></li></ul></div>
+      <div><h4>Services</h4><ul><li><a href="/services/bath-and-brush">Bath &amp; Brush</a></li><li><a href="/services/haircuts-and-styling">Haircuts &amp; Styling</a></li><li><a href="/services/de-shedding">De-Shedding</a></li><li><a href="/services/puppy-grooming">Puppy Grooming</a></li></ul></div>
+      <div><h4>Learn More</h4><ul><li><a href="/mobile-dog-grooming-guide">How Mobile Grooming Works</a></li><li><a href="#faq">FAQ</a></li><li><a href="#about">Meet Julia</a></li></ul></div>
+    </div>
     <div class="container footer-inner">
       <div class="footer-brand">
         <span class="brand-main">THE PET-STETICIAN</span>

@@ -58,3 +58,11 @@ vercel --prod   # production deploy
 | Tan | `#c6a172` |
 
 Photos were cropped from the flyer and van-wrap mockups provided by the owner.
+
+## SEO landing pages
+The area, service, and guide pages (and `sitemap.xml`) are generated from `tools/pages.json`.
+To change their wording, edit `tools/pages.json` (or the template in `tools/build-pages.ps1`), then run:
+```powershell
+powershell -ExecutionPolicy Bypass -File tools/build-pages.ps1
+```
+and commit the regenerated `.html` files. Vercel still deploys the folder as-is, with no build step.
