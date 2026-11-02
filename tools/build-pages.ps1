@@ -464,7 +464,7 @@ $rows = ($g.compare | ForEach-Object { "<tr><th scope=""row"">$($_[0])</th><td>$
 $prep = ($g.prep | ForEach-Object { "<li>$_</li>" }) -join ''
 
 $main = @"
-$(PageHero $crumbs 'Mobile Grooming 101' $g.h1 @('Everything you need to know about getting your dog groomed at home, from booking to the final brush-out.') 'van-side.jpg' 'The Pet-Stetician mobile dog grooming van')
+$(PageHero $crumbs 'Mobile Grooming 101' $g.h1 @('Everything you need to know about getting your dog groomed at home, from booking to the final brush-out.') 'julia-portrait.jpg' 'Julia Begany, pet stylist, holding a freshly groomed grey poodle')
 
   <section class="section">
     <div class="container prose">
@@ -509,12 +509,12 @@ $graph = @(
   (CrumbLd $crumbs $url),
   [ordered]@{
     '@type' = 'Article'; '@id' = "$url#article"; 'headline' = (Plain $g.h1); 'description' = (Plain $g.description)
-    'image' = "$Base/img/van-side.jpg"; 'author' = @{ '@id' = $BizId }; 'publisher' = @{ '@id' = $BizId }
+    'image' = "$Base/img/julia-portrait.jpg"; 'author' = @{ '@id' = $BizId }; 'publisher' = @{ '@id' = $BizId }
     'mainEntityOfPage' = @{ '@id' = $url }; 'dateModified' = $Today; 'inLanguage' = 'en-US'
   },
   (FaqLd $g.faq $url)
 )
-Write-Page $path $g.title $g.description 'van-side.jpg' 'The Pet-Stetician mobile dog grooming van' $graph $main
+Write-Page $path $g.title $g.description 'julia-portrait.jpg' 'Julia Begany, pet stylist, holding a freshly groomed grey poodle' $graph $main
 
 # ---------- sitemap ----------
 
